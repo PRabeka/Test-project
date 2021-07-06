@@ -95,8 +95,8 @@ section{
     width:25%;
     display: inline-block;
     padding:30px;
-    border-radius: 18px;
-    box-shadow:10px 10px 40px #505e70; 
+    border-radius: 20px;
+    box-shadow:8px 8px 36px #5d799e; 
     margin-left: 2%;
     margin-right: 2%;
     padding-left: 2%;
@@ -120,5 +120,5 @@ section{
     padding:20px;
 }
 #food-list{
-    color:orange;
+    color:rgb(24, 100, 151);
 }
