@@ -1,0 +1,124 @@
+body{
+    margin:0;
+    font-family: 'PT Sans', sans-serif;
+}
+h1{
+ font-size:50px;
+ color:rgb(7, 7, 139)
+ 
+}
+.color-pink{
+    color:rgb(245, 0, 122)
+}
+section{
+    background-image: url("image/8.png");
+    display:flex;
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.left-area{
+    width:50%;
+    padding-left: 8px;
+}
+.right-area{
+    width:50%;
+}
+.right-area img{
+    width:70%;
+}
+.mybtn{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    padding:7px;
+    margin-bottom: 200px;
+    color:#fff;
+    background:rgb(104, 104, 236);
+    text-decoration:none;
+    border-radius:8px;
+}
+.mybtn:hover{
+    color:#fff;
+    background:#4E4E4E;
+    cursor: pointer;
+    font-style: bold;
+}
+/*this is section 2*/
+.bg-image2{
+    background-image: url(image/10.png);
+    background-repeat: no-repeat;
+    padding:30px;
+}
+.mybtn2{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    padding:7px;
+    margin-bottom: 200px;
+    color:black;
+    background:pink;
+    text-decoration:none;
+    border-radius:8px;
+}
+.mybtn2:hover{
+    color:rgb(214, 82, 104);
+    background:#080808;
+    cursor: pointer;
+    font-style: bold;
+}
+/* this is secton 3*/
+.my-section{
+   
+    padding: 50px 0;
+}
+ .my-section.my-section> h3{
+    font-size: 40px;
+    color:black;
+    margin:0;
+    padding: 40px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.my-section.my-section> p{
+    font-size: 19px;
+    color:black;
+    width: 58%;
+    margin: 10px auto;
+    text-align: center;
+}
+.first-div{
+   margin-top: 50px;
+}
+
+.first-div .box{
+    width:25%;
+    display: inline-block;
+    padding:30px;
+    border-radius: 18px;
+    box-shadow:10px 10px 40px #505e70; 
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.box img{
+    width: 100%;
+     border-radius: 20px;
+}
+.first-div.box P{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    }
+/*this is footer */
+    
+.my-class{
+    background:rgb(5, 5, 5);
+    text-align: center;
+    color:white;
+    padding:20px;
+}
+#food-list{
+    color:orange;
+}
